@@ -1,4 +1,4 @@
-# CSC 299 Class Assignments
+# CSC299 Class Assignments
 A repository containing multiple projects from my CSC 299 class, Making Music with Computers, at the University of Mount Union.
 
 This class utilizes libraries from Jython Music found here: https://jythonmusic.me/
