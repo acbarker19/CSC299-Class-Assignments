@@ -1,8 +1,10 @@
-# HW1-TheEntertainer.py
+# HW1_TheEntertainer_AlecBarker.py
 # January 22, 2020
 
 # The Entertainer
 # Composed by Scott Joplin
+# Arranged by Hiroshi Yamazami
+# Found at https://www.free-scores.com/download-sheet-music.php?pdf=27429
 # Performed by Alec Barker
 
 from music import *
@@ -11,7 +13,8 @@ from music import *
 ### Create Score ###
 ####################
 
-the_entertainer_score = Score("The Entertainer - Easy", 180)   # Sets the title and the BPM
+the_entertainer_score = Score("The Entertainer - Easy", 180)   # Sets the
+# title and the BPM
 
 ####################
 ### Create Parts ###
@@ -41,21 +44,45 @@ bass_phrase_repeat = Phrase()   # A repeat of the second bass phrase
 ### Treble/Bass  ###
 ####################
 
-# Measure         One                                                           Two                       Three
-treble_pitch_1 = [[D6, D5], [E6, E5], [C6, C5], [A6, A4], [B6, B4], [G5, G4],   D5, E5, C5, A4, B4, G4,   D4, E4, C4, A3, B3, A3, AF3,
-# Measure         Four
+# Measure         One
+treble_pitch_1 = [[D6, D5], [E6, E5], [C6, C5], [A6, A4], [B6, B4],
+#                 One
+                  [G5, G4],
+#                 Two
+                  D5, E5, C5, A4, B4, G4,
+#                 Three
+                  D4, E4, C4, A3, B3, A3, AF3,
+#                 Four
                   G3, REST, [G5, D5, B4, G4], D4, DS4]
                   
-# Measure         One                                                           Two                       Three
-treble_dur_1 =   [EN,       EN,       EN,       QN,       EN,       QN,         EN, EN, EN, QN, EN, QN,   EN, EN, EN, QN, EN, EN, EN,
-# Measure         Four
+# Measure         One
+treble_dur_1 =   [EN,       EN,       EN,       QN,       EN,
+#                 One
+                  QN,
+#                 Two
+                  EN, EN, EN, QN, EN, QN,
+#                 Three
+                  EN, EN, EN, QN, EN, EN, EN,
+#                 Four
                   QN, QN,   QN,               EN, EN]
 
-# Measure       One     Two                       Three                          Four
-bass_pitch_1 = [REST,   D4, E4, C4, A3, B3, G3,   D3, E3, C3, A2, B2, A2, AF2,   G2, REST, [G2, G1], [G3, B3]]
+# Measure       One
+bass_pitch_1 = [REST,
+#               Two
+                D4, E4, C4, A3, B3, G3,
+#               Three
+                D3, E3, C3, A2, B2, A2, AF2,
+#               Four
+                G2, REST, [G2, G1], [G3, B3]]
 
-# Measure       One     Two                       Three                          Four
-bass_dur_1 =   [WN,     EN, EN, EN, QN, EN, QN,   EN, EN, EN, QN, EN, EN, EN,    QN, QN,   QN,       QN]
+# Measure       One
+bass_dur_1 =   [WN,
+#               Two
+                EN, EN, EN, QN, EN, QN,
+#               Three
+                EN, EN, EN, QN, EN, EN, EN,
+#               Four
+                QN, QN,   QN,       QN]
 
 #########################
 ### Measures 5, 9, 13 ###
@@ -135,17 +162,33 @@ bass_dur_5 =   [QN, QN,       QN,       QN]
 ###  Treble/Bass   ###
 ######################
 
-# Measure         Ten             Eleven                        Twelve
-treble_pitch_6 = [REST, A4, G4,   F4, A4, C5, E5, D5, C5, A4,   D5, REST, D4, DS4]
+# Measure         Ten
+treble_pitch_6 = [REST, A4, G4,
+#                 Eleven
+                  F4, A4, C5, E5, D5, C5, A4,
+#                 Twelve
+                  D5, REST, D4, DS4]
 
-# Measure         Ten             Eleven                        Twelve
-treble_dur_6 =   [QN,   EN, EN,   EN, EN, EN, QN, EN, EN, EN,   HN, QN,   EN, EN]
+# Measure         Ten
+treble_dur_6 =   [QN,   EN, EN,
+#                 Eleven
+                  EN, EN, EN, QN, EN, EN, EN,
+#                 Twelve
+                  HN, QN,   EN, EN]
 
-# Measure       Ten                      Eleven                          Twelve
-bass_pitch_6 = [F3, [A3, C4], E3, EF3,   D3, [FS3, A3], D3, [FS3, A3],   [G3, B3], G2, A2, B2]
+# Measure       Ten
+bass_pitch_6 = [F3, [A3, C4], E3, EF3,
+#               Eleven
+                D3, [FS3, A3], D3, [FS3, A3],
+#               Twelve
+                [G3, B3], G2, A2, B2]
 
-# Measure       Ten                      Eleven                          Twelve
-bass_dur_6 =   [QN, QN,       QN, QN,    QN, QN,        QN, QN,          QN,       QN, QN, QN]
+# Measure       Ten
+bass_dur_6 =   [QN, QN,       QN, QN,
+#               Eleven
+                QN, QN,        QN, QN,
+#               Twelve
+                QN,       QN, QN, QN]
 
 ###################
 ### Measure 16  ###
@@ -163,11 +206,19 @@ treble_dur_7 =   [HN, QN,   EN, EN]
 ###   Bass Only    ###
 ######################
 
-# Measure       Sixteen                         Seventeen                      Eighteen
-bass_pitch_7 = [[C3, E3], G2, [C3, E3], REST,   C3, [E3, G3], BF2, [E3, G3],   A2, [C3, E3], AS2, [C3, E3]]
+# Measure       Sixteen
+bass_pitch_7 = [[C3, E3], G2, [C3, E3], REST,
+#               Seventeen
+                C3, [E3, G3], BF2, [E3, G3],
+#               Eighteen
+                A2, [C3, E3], AS2, [C3, E3]]
 
-# Measure       Sixteen                         Seventeen                      Eighteen
-bass_dur_7 =   [QN,       QN, QN,       QN,     QN, QN,       QN,  QN,         QN, QN,       QN,  QN]
+# Measure       Sixteen
+bass_dur_7 =   [QN,       QN, QN,       QN,
+#               Seventeen
+                QN, QN,       QN,  QN,
+#               Eighteen
+                QN, QN,       QN,  QN]
 
 ######################
 ### Measure 17, 18 ###
@@ -199,7 +250,8 @@ bass_dur_8 =   [QN,       QN, QN, QN]
 # Measure         Twenty-One
 treble_end_note = Note(C5, HN)
 
-# Note won't accept two notes played together, so I had to create a NoteList below.
+# Note won't accept two notes played together,
+# so I had to create a NoteList below.
 
 # Measure       Twenty-One
 bass_pitch_9 = [[C3, E3]]
@@ -298,7 +350,10 @@ the_entertainer_score.addPart(treble_part)
 the_entertainer_score.addPart(bass_part)
 
 # Writes to MIDI file
-Write.midi(the_entertainer_score, "the_entertainer.midi")
+# Write.midi(the_entertainer_score, "the_entertainer.midi")
+
+# Displays the notation
+# View.notation(the_entertainer_score)
 
 # Plays the song
 Play.midi(the_entertainer_score)
