@@ -1,0 +1,29 @@
+# choice 84 20S-AB
+pitches84     = [[C5,E3,C3], [G4,E3,C3], [E5,E3,C3], [C5,E3,C3], G5, E5]
+durations84   = [ SN,         SN,         SN,         SN,        SN, SN]
+choice84      = Phrase()
+choice84.addNoteList(pitches84, durations84)
+
+# choice 156 20S-AB
+pitches156     = [[C5,E3,C3], [G4,E3,C3], [E5,E3,C3], [C5,E3,C3], G5]
+durations156   = [ SN,         SN,         SN,         SN,        EN]
+choice156      = Phrase()
+choice156.addNoteList(pitches156, durations156)
+
+# choice 122 20S-AB
+pitches122     = [[G5, D3, B2], [FS5, D3, B2], [G5, D3, B2], [B5, D3, B2], [D5, D3, B2]]
+durations122   = [ SN,           SN,            SN,           SN,           EN]
+choice122      = Phrase()
+choice122.addNoteList(pitches122, durations122)
+
+# choice 56 20S-AB
+pitches56     = [[D5, G3, G2], [B4, G3, G2], [G4, G3, G2], G3]
+durations56   = [ SN,           SN,           EN,          EN]
+choice56      = Phrase()
+choice56.addNoteList(pitches56, durations56)
+
+# choice 72 20S-AB
+pitches72     = [[F5, F3], [E5, F3], [D5, F3], [C5, F3], [B4, G3], [D5, G3]]
+durations72   = [ SN,       SN,       SN,       SN,       SN,       SN]
+choice72      = Phrase()
+choice72.addNoteList(pitches72, durations72)
