@@ -27,3 +27,5 @@ It contains code that does the following:
     - `In-Class Exercises/TheEntertainer-v1.py`: Plays part of The Entertainer by Scott Joplin
 - Notes
     - `Notes/ch8_notes.py`: Notes on displaying shapes, loading images, processing key presses, and starting and ending notes
+- Miscellaneous
+    - [Bohemian Rhapsody in Python](https://github.com/acbarker19/Bohemian-Rhapsody-In-Python): A longer performance that covers the ballad section of "Bohemian Rhapsody" by Freddie Mercury.
